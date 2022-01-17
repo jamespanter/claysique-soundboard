@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 95px;
-    background-color: rgba(247, 227, 255, 1);
+    background-color: #f9d7e3;
     width: 100%;
     position: sticky;
     top: 0;
@@ -92,10 +92,6 @@ body {
     background: #fff;
     border-radius: 90px;
     transition: 0.3s;
-  }
-
-  input:checked + label {
-    // background: lightgreen;
   }
 
   input:checked + label:after {
@@ -180,14 +176,6 @@ audio {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-@media only screen and (max-width: 1200px) {
-  body {
-    h1 {
-      // font-size: 62px;
-    }
-  }
 }
 
 @media only screen and (max-width: 850px) {
