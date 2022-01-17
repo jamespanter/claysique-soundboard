@@ -1,0 +1,276 @@
+* {
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+  scroll-behavior: smooth;
+}
+
+*::-moz-selection {
+  outline: none;
+}
+
+*::selection {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
+  background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 95px;
+  background-color: #f7e3ff;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  -webkit-box-shadow: 0 0 0.5rem black;
+          box-shadow: 0 0 0.5rem black;
+}
+
+body nav div {
+  width: 100%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body h1 {
+  margin: 0;
+  font-size: 44px;
+}
+
+body input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+body label {
+  color: white;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  background: #4c4a4a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100px;
+  position: relative;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+body label span {
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+body label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 60px;
+  height: 40px;
+  background: #fff;
+  border-radius: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body input:checked + label:after {
+  left: calc(100% - 5px);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+body label:active:after {
+  width: 60px;
+}
+
+body #soundboard-container {
+  margin-top: 40px;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #soundboard-container .card {
+  border-radius: 30px;
+  height: 350px;
+  width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+body #soundboard-container .card img {
+  width: 90%;
+  height: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+body #soundboard-container .card .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40%;
+  width: 100%;
+}
+
+body #soundboard-container .card h2 {
+  font-size: 20px;
+}
+
+body #soundboard-container .card button {
+  margin: 10px 0;
+  width: 60%;
+  height: 50px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 900;
+  background-color: lightgreen;
+  border-radius: 20px;
+  -webkit-transition: ease-in-out 0.15s;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+
+body #soundboard-container .card button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  height: 100%;
+}
+
+body #soundboard-container .card button:hover {
+  -webkit-box-shadow: 0px 8px 15px black;
+          box-shadow: 0px 8px 15px black;
+}
+
+audio {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  body h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  body nav div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body h1 {
+    display: none;
+    width: 0px;
+    overflow-x: hidden;
+  }
+}
+/*# sourceMappingURL=style.css.map */
