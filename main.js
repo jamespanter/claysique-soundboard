@@ -127,7 +127,7 @@ let itemsv2 = [
     soundFileName: "AngryLeo.wav",
   },
   {
-    title: "Attractive Guy",
+    title: "Attractive Guy?",
     imageFileName: "AttractiveGuy-min.png",
     soundFileName: "AttractiveGuy.wav",
   },
@@ -222,7 +222,7 @@ let itemsv2 = [
     soundFileName: "Wazzup.wav",
   },
   {
-    title: "You Lying",
+    title: "You Lying?",
     imageFileName: "YouLying-min.png",
     soundFileName: "YouLying.wav",
   },
