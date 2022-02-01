@@ -231,6 +231,11 @@ let itemsv2 = [
     imageFileName: "You'reNotTough-min.png",
     soundFileName: "You'reNotTough.wav",
   },
+  {
+    title: "Outlands",
+    imageFileName: "trexx_nagrand_hellfire-min.png",
+    soundFileName: "Outlands.wav",
+  },
 ];
 
 const mapSoundboardItems = () => {
