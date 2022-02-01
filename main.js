@@ -122,9 +122,114 @@ let itemsv1 = [
 
 let itemsv2 = [
   {
-    title: "Texmex",
-    imageFileName: "Texmex-min.png",
-    soundFileName: "texmex.wav",
+    title: "Angry Leo",
+    imageFileName: "AngryLeo.png",
+    soundFileName: "AngryLeo.wav",
+  },
+  {
+    title: "Attractive Guy",
+    imageFileName: "AttractiveGuy.png",
+    soundFileName: "AttractiveGuy.wav",
+  },
+  {
+    title: "Charcoal Tan",
+    imageFileName: "CharcoalTan.png",
+    soundFileName: "CharcoalTan.wav",
+  },
+  {
+    title: "Chinese Gold Spam",
+    imageFileName: "ChineseGoldSpam.png",
+    soundFileName: "ChineseGoldSpam.wav",
+  },
+  {
+    title: "Dark Side",
+    imageFileName: "DarkSide.png",
+    soundFileName: "DarkSide.wav",
+  },
+  {
+    title: "Defending Farm",
+    imageFileName: "DefendingFarm.png",
+    soundFileName: "DefendingFarm.wav",
+  },
+  {
+    title: "Dog Eat Cat World",
+    imageFileName: "DogEatCatWorld.png",
+    soundFileName: "DogEatCatWorld.wav",
+  },
+  {
+    title: "Dreaming",
+    imageFileName: "Dreaming.png",
+    soundFileName: "Dreaming.wav",
+  },
+  {
+    title: "Incipacitated",
+    imageFileName: "Incipacitated.png",
+    soundFileName: "Incipacitated.wav",
+  },
+  {
+    title: "Jaguar",
+    imageFileName: "Jaguar.png",
+    soundFileName: "Jaguar.wav",
+  },
+  {
+    title: "My Business",
+    imageFileName: "MyBusiness.png",
+    soundFileName: "MyBusiness.wav",
+  },
+  {
+    title: "Nigerian Falls",
+    imageFileName: "NigerianFalls.png",
+    soundFileName: "NigerianFalls.wav",
+  },
+  {
+    title: "Obviously Joking",
+    imageFileName: "ObviouslyJoking.png",
+    soundFileName: "ObviouslyJoking.wav",
+  },
+  {
+    title: "Owens Mic",
+    imageFileName: "OwensMic.png",
+    soundFileName: "OwensMic.wav",
+  },
+  {
+    title: "Poggers Mum",
+    imageFileName: "PoggersMum.png",
+    soundFileName: "PoggersMum.wav",
+  },
+  {
+    title: "Rinsed Cheese",
+    imageFileName: "RinsedCheese.png",
+    soundFileName: "RinsedCheese.wav",
+  },
+  {
+    title: "Sound The Gong",
+    imageFileName: "SoundTheGong.png",
+    soundFileName: "SoundTheGong.wav",
+  },
+  {
+    title: "Spaghetti",
+    imageFileName: "Spaghetti.png",
+    soundFileName: "Spaghetti.wav",
+  },
+  {
+    title: "Tums Plate",
+    imageFileName: "TumsPlate.png",
+    soundFileName: "TumsPlate.wav",
+  },
+  {
+    title: "Wazzup",
+    imageFileName: "Wazzup.png",
+    soundFileName: "Wazzup.wav",
+  },
+  {
+    title: "You Lying",
+    imageFileName: "YouLying.png",
+    soundFileName: "YouLying.wav",
+  },
+  {
+    title: "You're Not Tough",
+    imageFileName: "You'reNotTough.png",
+    soundFileName: "You'reNotTough.wav",
   },
 ];
 
