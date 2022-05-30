@@ -131,16 +131,16 @@ let itemsv2 = [
     imageFileName: "AttractiveGuy-min.png",
     soundFileName: "AttractiveGuy.wav",
   },
-  {
-    title: "Charcoal Tan",
-    imageFileName: "CharcoalTan-min.png",
-    soundFileName: "CharcoalTan.wav",
-  },
-  {
-    title: "Chinese Gold Spam",
-    imageFileName: "ChineseGoldSpam-min.png",
-    soundFileName: "ChineseGoldSpam.wav",
-  },
+//   {
+//     title: "Charcoal Tan",
+//     imageFileName: "CharcoalTan-min.png",
+//     soundFileName: "CharcoalTan.wav",
+//   },
+//   {
+//     title: "Chinese Gold Spam",
+//     imageFileName: "ChineseGoldSpam-min.png",
+//     soundFileName: "ChineseGoldSpam.wav",
+//   },
   {
     title: "Dark Side",
     imageFileName: "DarkSide-min.png",
