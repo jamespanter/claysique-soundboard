@@ -131,16 +131,16 @@ let itemsv2 = [
     imageFileName: "AttractiveGuy-min.png",
     soundFileName: "AttractiveGuy.wav",
   },
-//   {
-//     title: "Charcoal Tan",
-//     imageFileName: "CharcoalTan-min.png",
-//     soundFileName: "CharcoalTan.wav",
-//   },
-//   {
-//     title: "Chinese Gold Spam",
-//     imageFileName: "ChineseGoldSpam-min.png",
-//     soundFileName: "ChineseGoldSpam.wav",
-//   },
+  {
+    title: "Charcoal Tan",
+    imageFileName: "CharcoalTan-min.png",
+    soundFileName: "CharcoalTan.wav",
+  },
+  {
+    title: "Chinese Gold Spam",
+    imageFileName: "ChineseGoldSpam-min.png",
+    soundFileName: "ChineseGoldSpam.wav",
+  },
   {
     title: "Dark Side",
     imageFileName: "DarkSide-min.png",
@@ -243,7 +243,7 @@ const mapSoundboardItems = () => {
   soundboardContainer.innerHTML = items
     .map((item) => {
       return `<div class="card">
-      <img src=../assets/${item.imageFileName} class="slide-in-left">
+      <img src=assets/${item.imageFileName} class="slide-in-left">
       <div class="card-text">
       <h2 class="fade-in-bottom" >${item.title}</h2>
       <button onclick=playSound("${item.soundFileName}") class="fade-in-bottom"><i class="fa fa-play" aria-hidden="true"></i></button> 
@@ -261,11 +261,11 @@ const mapAudioElements = () => {
   let items = v1 ? itemsv1 : itemsv2;
   audioContainer.innerHTML = items
     .map((item) => {
-      return `<audio id="${
-        item.soundFileName
-      }" preload="none"><source src=../assets/${
-        item.soundFileName
-      } type="audio/${item.soundFileName.slice(-3)}"></audio>`;
+      return `<audio id="${item.soundFileName}" preload="none">
+                <source src="assets/${
+                  item.soundFileName
+                }" type="audio/${item.soundFileName.slice(-3)}">
+              </audio>`;
     })
     .join("");
 };
